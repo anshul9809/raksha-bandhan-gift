@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Question from './components/Question';
+import ThinkAgain from './components/ThinkAgain';
+import LastChance from './components/LastChance';
+import ChaseComponent from './components/ChaseComponent';
+import GiftDelayComponent from './components/GiftDelayComponent';
+import Gift from './components/Gift';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Question />} />
+        <Route path="/think-again" element={<ThinkAgain />} />
+        <Route path="/last-chance" element={<LastChance />} />
+        <Route path="/chase" element={<ChaseComponent />} />
+        <Route path="/gift-delay" element={<GiftDelayComponent />} />
+        <Route path="/gift" element={<Gift />} />
+      </Routes>
+      <div className="footer">
+        Crafted with <a>&#10084;</a> by Anshul
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

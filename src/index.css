@@ -1,13 +1,23 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+:root {
+  /* Background Color */
+  --background-color: #FFF4E6; /* Soft Cream */
+  
+  /* Text Color */
+  --text-color: #D77D8B; /* Deep Pink */
+  --secondary-text-color: #FAD4D8; /* Soft Pink */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* Button Colors */
+  --button-color: #F7A8A8; /* Blush Pink */
+  --button-hover-color: #FFD6C9; /* Peachy Cream */
+  --button-text-color: #FFFFFF; /* White */
+
+  /* Link Colors */
+  --link-color: #E5C3E6; /* Lavender */
+  --link-hover-color: #D77D8B; /* Deep Pink */
+
+  /* Border Color */
+  --border-color: #FAD4D8; /* Soft Pink */
+
+  /* Accent Color */
+  --accent-color: #FFD6C9; /* Peachy Cream */
 }
