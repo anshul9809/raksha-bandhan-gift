@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/raksha-bandhan-gift/static/css/main.4f4e4d4c.css",
-    "main.js": "/raksha-bandhan-gift/static/js/main.094ed3b7.js",
+    "main.js": "/raksha-bandhan-gift/static/js/main.158a8826.js",
     "static/js/453.26bace91.chunk.js": "/raksha-bandhan-gift/static/js/453.26bace91.chunk.js",
     "static/media/34.jpg": "/raksha-bandhan-gift/static/media/34.b6b4c8def551404990c0.jpg",
     "static/media/32.jpg": "/raksha-bandhan-gift/static/media/32.0a8a892e6bb879005201.jpg",
@@ -43,11 +43,11 @@
     "static/media/21.jpg": "/raksha-bandhan-gift/static/media/21.2310990daab639ae97a4.jpg",
     "index.html": "/raksha-bandhan-gift/index.html",
     "main.4f4e4d4c.css.map": "/raksha-bandhan-gift/static/css/main.4f4e4d4c.css.map",
-    "main.094ed3b7.js.map": "/raksha-bandhan-gift/static/js/main.094ed3b7.js.map",
+    "main.158a8826.js.map": "/raksha-bandhan-gift/static/js/main.158a8826.js.map",
     "453.26bace91.chunk.js.map": "/raksha-bandhan-gift/static/js/453.26bace91.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4f4e4d4c.css",
-    "static/js/main.094ed3b7.js"
+    "static/js/main.158a8826.js"
   ]
 }
